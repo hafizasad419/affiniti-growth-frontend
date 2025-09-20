@@ -16,7 +16,7 @@ const Header = () => {
     { name: 'Offering', href: '/offering' },
     { name: 'About', href: '/about' },
     { name: 'Insights', href: '/insights' },
-    { name: 'Contact', href: '/contact' },
+    // { name: 'Contact', href: '/contact' },
   ]
 
   return (
@@ -24,13 +24,13 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center">
+          <div className="fle-shrink">
+            <Link to="/" className="flex flex-col items-center">
               <div className="text-2xl font-bold text-white">
                 Affiniti Growth
               </div>
               <div className="ml-2 text-sm text-cyan-400 font-medium">
-                ENTERPRISE SALES+AI
+                Enterprise Sales as a service
               </div>
             </Link>
           </div>
@@ -41,11 +41,10 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`text-sm font-medium px-3 py-1.5 rounded-md transition-all duration-200 ${
-                  location.pathname === item.href
+                className={`text-sm font-medium px-3 py-1.5 rounded-md transition-all duration-200 ${location.pathname === item.href
                     ? 'bg-cyan-500 text-white shadow-md'
                     : 'text-slate-300 hover:text-white hover:bg-slate-700'
-                }`}
+                  }`}
               >
                 {item.name}
               </Link>
@@ -80,11 +79,10 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`block px-3 py-2 text-base font-medium rounded-md transition-all duration-200 ${
-                    location.pathname === item.href
+                  className={`block px-3 py-2 text-base font-medium rounded-md transition-all duration-200 ${location.pathname === item.href
                       ? 'bg-cyan-500 text-white'
                       : 'text-slate-300 hover:text-white hover:bg-slate-700'
-                  }`}
+                    }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

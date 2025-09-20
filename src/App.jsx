@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
 import Homepage from './components/Homepage'
 import WhyUs from './components/WhyUs'
@@ -8,7 +8,7 @@ import CaseStudies from './components/CaseStudies'
 import Offering from './components/Offering'
 import About from './components/About'
 import Insights from './components/Insights'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import GrowthCallLanding from './components/GrowthCallLanding'
 import Application from './components/Application'
 import Schedule from './components/Schedule'
@@ -33,7 +33,7 @@ function App() {
             <Route path="/offering" element={<Offering />} />
             <Route path="/about" element={<About />} />
             <Route path="/insights" element={<Insights />} />
-            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
             <Route path="/deeptrust-os" element={<DeepTrustOS />} />
             <Route path="/growth-call" element={<GrowthCallLanding />} />
             <Route path="/application" element={<Application />} />
@@ -41,6 +41,8 @@ function App() {
             <Route path="/application-thank-you" element={<ApplicationThankYou />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/confirmation" element={<Confirmation />} />
+
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
         <Footer />

@@ -1,8 +1,8 @@
 import React from 'react'
 import { StepperForm } from './StepperForm'
 
-const ApplicationForm = () => {
+const ApplicationFormNew = () => {
   return <StepperForm />
 }
 
-export default ApplicationForm
+export default ApplicationFormNew

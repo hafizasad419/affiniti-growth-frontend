@@ -12,7 +12,7 @@ const Footer = () => {
     { name: 'Offering', href: '/offering' },
     { name: 'About', href: '/about' },
     { name: 'Insights', href: '/insights' },
-    { name: 'Contact', href: '/contact' },
+    // { name: 'Contact', href: '/contact' },
   ]
 
   return (

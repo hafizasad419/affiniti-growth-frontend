@@ -72,7 +72,7 @@ const Homepage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 text-white">
                 Apply to See if You <span className="text-cyan-400">Qualify for Our Enterprise Sales Division</span>
               </h1>
               
@@ -94,7 +94,7 @@ const Homepage = () => {
                   </Button>
                 </Link>
                 <Link to="/why-us">
-                  <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-800 font-bold px-8 py-4 text-lg rounded-full transition-all duration-300">
+                  <Button size="lg" variant="outline" className="border-2 border-white text-black hover:bg-white hover:text-slate-800 font-bold px-8 py-4 text-lg rounded-full transition-all duration-300">
                     See Our Standards
                   </Button>
                 </Link>
@@ -166,7 +166,7 @@ const Homepage = () => {
           </div>
           
           <div className="bg-slate-800 text-white p-12 rounded-xl text-center mb-16">
-            <h3 className="text-4xl font-bold mb-6">Or Simply Install the System</h3>
+            <h3 className="text-4xl font-bold mb-6 text-white">Or Simply Install the System</h3>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
               Our Enterprise Sales as a Service division is your immediate install. We become your dedicated large account 
               acquisition team, fully operational in 2-3 months, winning you deals consistently within 6-18 months 
@@ -190,7 +190,7 @@ const Homepage = () => {
           
           <div className="bg-slate-900 text-white p-12 rounded-xl">
             <div className="text-center mb-8">
-              <h3 className="text-4xl font-bold mb-4">The Investment & Return</h3>
+              <h3 className="text-4xl font-bold mb-4 text-white">The Investment & Return</h3>
               <p className="text-xl max-w-4xl mx-auto">
                 If you apply and we select you as a qualified company, you will invest between $1M to $15M per year 
                 in our team to gain 10x+ that in top-line revenue consistently within the next 18 months.
@@ -199,12 +199,12 @@ const Homepage = () => {
             
             <div className="grid md:grid-cols-2 gap-8 text-center">
               <div className="bg-white/10 p-8 rounded-lg">
-                <h4 className="text-2xl font-bold mb-4">Your Investment</h4>
+                <h4 className="text-2xl font-bold mb-4 text-white">Your Investment</h4>
                 <div className="text-4xl font-bold mb-2">$1M - $15M</div>
                 <p className="text-slate-200">Annual investment in our enterprise sales team</p>
               </div>
               <div className="bg-white/10 p-8 rounded-lg">
-                <h4 className="text-2xl font-bold mb-4">Your Return</h4>
+                <h4 className="text-2xl font-bold mb-4 text-white">Your Return</h4>
                 <div className="text-4xl font-bold mb-2">10x+</div>
                 <p className="text-slate-200">Top-line revenue increase within 18 months</p>
               </div>
@@ -223,7 +223,7 @@ const Homepage = () => {
       <section className="bg-slate-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-6">
+            <h2 className="text-4xl font-bold mb-6 text-white">
               How We Source Your Needle-Moving Deals
             </h2>
             <p className="text-xl text-slate-300 max-w-4xl mx-auto">
@@ -233,7 +233,7 @@ const Homepage = () => {
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-3xl font-bold mb-6">DeepTrust OS + AI</h3>
+              <h3 className="text-3xl font-bold mb-6 text-white">DeepTrust OS + AI</h3>
               <p className="text-lg text-slate-300 mb-6">
                 Our AI-driven executive referral system generates 100-1000 qualified executive referrals per year, 
                 custom-trained on Executive Speak and your organization's unique value proposition.
@@ -283,7 +283,7 @@ const Homepage = () => {
             </div>
             
             <div className="bg-white/10 p-8 rounded-xl">
-              <h4 className="text-2xl font-bold mb-4">The Complete System</h4>
+              <h4 className="text-2xl font-bold mb-4 text-white">The Complete System</h4>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-cyan-500 rounded-full flex items-center justify-center">
@@ -475,7 +475,7 @@ const Homepage = () => {
           </div>
           
           <div className="bg-slate-800 text-white p-8 rounded-xl mb-8">
-            <h3 className="text-2xl font-bold mb-4">Our Promise</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white">Our Promise</h3>
             <p className="text-lg mb-6">
               We deliver 2-5 enterprise deals annually, each worth $5M-$100M, resulting in{' '}
               <span className="font-bold">$20M-$100M+ annual revenue growth</span>.
@@ -495,7 +495,7 @@ const Homepage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-8">
+              <h2 className="text-4xl font-bold mb-8 text-white">
                 Why Firms Choose Affiniti Growth Solutions
               </h2>
               
